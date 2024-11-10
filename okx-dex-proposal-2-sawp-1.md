@@ -48,6 +48,7 @@ Current slippage settings are static and often result in failed transactions or 
 
 **Implementation:**
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#ADFF2F", "edgeLabelBackground":"#ADFF2F", "tertiaryColor": "#ADFF2F", "secondaryColor": "#ADFF2F", "lineColor": "#ADFF2F", "fontSize": "16px"}}}%%
 graph TD
     A[Trade Request] --> B[ML Model Analysis]
     B --> C[Market Data Input]
