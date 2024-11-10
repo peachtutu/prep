@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header Section -->
+  <rect x="20" y="20" width="760" height="80" rx="10" fill="#ffffff" stroke="#e9ecef"/>
+  <text x="40" y="65" font-family="Arial" font-size="24" fill="#212529">Smart Portfolio Insights</text>
+  
+  <!-- Main Portfolio Overview -->
+  <rect x="20" y="120" width="500" height="200" rx="10" fill="#ffffff" stroke="#e9ecef"/>
+  <text x="40" y="150" font-family="Arial" font-size="16" fill="#495057">Portfolio Overview</text>
+  
+  <!-- Chart Area -->
+  <rect x="40" y="170" width="460" height="130" fill="#f8f9fa" rx="5"/>
+  <path d="M 50 270 L 150 220 L 250 240 L 350 180 L 450 200" 
+        stroke="#0d6efd" 
+        fill="none" 
+        stroke-width="2"/>
+  
+  <!-- Risk Analysis Panel -->
+  <rect x="540" y="120" width="240" height="200" rx="10" fill="#ffffff" stroke="#e9ecef"/>
+  <text x="560" y="150" font-family="Arial" font-size="16" fill="#495057">Risk Analysis</text>
+  <circle cx="660" cy="220" r="50" fill="none" stroke="#198754" stroke-width="20"/>
+  
+  <!-- DeFi Opportunities -->
+  <rect x="20" y="340" width="760" height="240" rx="10" fill="#ffffff" stroke="#e9ecef"/>
+  <text x="40" y="370" font-family="Arial" font-size="16" fill="#495057">DeFi Opportunities</text>
+  
+  <!-- Opportunity Cards -->
+  <rect x="40" y="390" width="220" height="170" rx="5" fill="#f8f9fa"/>
+  <rect x="280" y="390" width="220" height="170" rx="5" fill="#f8f9fa"/>
+  <rect x="520" y="390" width="220" height="170" rx="5" fill="#f8f9fa"/>
+</svg>
