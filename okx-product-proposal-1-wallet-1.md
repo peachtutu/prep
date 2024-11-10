@@ -95,13 +95,14 @@ A comprehensive recovery system that combines social guardians with AI-powered v
 ```mermaid
 gantt
     title Implementation Timeline
+    dateFormat  YYYY-MM-DD
     section Phase 1
-    Beta Development    :2024-Q1, 3M
-    Testing            :2024-Q2, 2M
+    Beta Development    : 2024-01-01, 3M
+    Testing            : 2024-04-01, 2M
     section Phase 2
-    Full Launch        :2024-Q3, 3M
+    Full Launch        : 2024-07-01, 3M
     section Phase 3
-    Feature Expansion  :2024-Q4, 3M
+    Feature Expansion  : 2024-10-01, 3M
 ```
 
 ### 7. Risk Assessment
