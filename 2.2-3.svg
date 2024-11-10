@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="100" y1="50" x2="100" y2="350"/>
+    <line x1="100" y1="350" x2="700" y2="350"/>
+    
+    <!-- Horizontal grid lines -->
+    <line x1="100" y1="50" x2="700" y2="50" stroke-dasharray="5,5"/>
+    <line x1="100" y1="150" x2="700" y2="150" stroke-dasharray="5,5"/>
+    <line x1="100" y1="250" x2="700" y2="250" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Price Impact Curves -->
+  <g fill="none" stroke-width="2">
+    <!-- Current Impact -->
+    <path d="M100,350 Q400,330 700,50" stroke="#ff6b6b"/>
+    <!-- Optimized Impact -->
+    <path d="M100,350 Q400,280 700,150" stroke="#4ecdc4"/>
+  </g>
+  
+  <!-- Labels -->
+  <g font-family="Arial" font-size="12">
+    <text x="80" y="355" text-anchor="end">0%</text>
+    <text x="80" y="255" text-anchor="end">2%</text>
+    <text x="80" y="155" text-anchor="end">4%</text>
+    <text x="80" y="55" text-anchor="end">6%</text>
+    
+    <text x="100" y="370" text-anchor="middle">0</text>
+    <text x="300" y="370" text-anchor="middle">5K</text>
+    <text x="500" y="370" text-anchor="middle">10K</text>
+    <text x="700" y="370" text-anchor="middle">15K</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(550,80)">
+    <rect width="140" height="60" fill="white" stroke="#e0e0e0"/>
+    <circle cx="20" cy="20" r="5" fill="#ff6b6b"/>
+    <text x="35" y="25">Current Impact</text>
+    <circle cx="20" cy="45" r="5" fill="#4ecdc4"/>
+    <text x="35" y="50">Optimized Impact</text>
+  </g>
+  
+  <!-- Axes Labels -->
+  <text x="400" y="390" text-anchor="middle" font-family="Arial" font-size="14">Trade Size (USD)</text>
+  <text x="60" y="200" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(-90,60,200)">Price Impact (%)</text>
+</svg>

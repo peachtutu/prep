@@ -1,0 +1,21 @@
+flowchart TD
+    A[User Enters Trade Amount] --> B{Price Impact Analysis}
+    B --> C[Calculate Impact Curve]
+    B --> D[Historical Data Analysis]
+    B --> E[Liquidity Check]
+    
+    C --> F[Generate Visualization]
+    D --> F
+    E --> F
+    
+    F --> G{Impact > Threshold?}
+    G -->|Yes| H[Suggest Trade Split]
+    G -->|No| I[Show Optimal Execution]
+    
+    H --> J[Multiple Smaller Trades]
+    I --> K[Single Trade Execution]
+    
+    style A fill:#f9f,stroke:#333
+    style G fill:#ff9,stroke:#333
+    style H fill:#9f9,stroke:#333
+    style I fill:#9f9,stroke:#333
